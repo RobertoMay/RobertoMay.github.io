@@ -32,10 +32,10 @@ Then open http://localhost:8000. Add `?lang=es` for Spanish.
 
 Project fields:
 
-- `image`: screenshot or GIF (`.png`, `.jpg`, `.webp`, `.gif`). Also used as the video poster.
+- `image`: screenshot, ideally `.webp` at 1280×800. Also used as the video poster. Without an image the project shows as a text-only card.
 - `video`: optional `.mp4`/`.webm`. Plays muted on loop; shows controls instead when the visitor prefers reduced motion.
 - `result`: leave both strings empty if there is no real metric; the row disappears.
-- `links`: any of `demo`, `repo`, `api`, `front`. Empty ones are not shown; labels live in `data/i18n.json` as `projects.<key>`.
+- `links.demo` / `links.repo`: leave empty and the button is not shown.
 
 ## First deploy
 

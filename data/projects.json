@@ -1,7 +1,6 @@
 [
   {
     "id": "soloperformance",
-    "featured": true,
     "title": { "en": "SoloPerformance", "es": "SoloPerformance" },
     "summary": {
       "en": "Strength and conditioning software for coaching staff: training programs, player analytics and injury tracking.",
@@ -13,7 +12,7 @@
     },
     "result": { "en": "Used by professional sports clubs.", "es": "Usada por clubes deportivos profesionales." },
     "tags": ["Angular", "TypeScript", "Storybook", "Data visualization"],
-    "image": "assets/img/soloperformance.jpg",
+    "image": "assets/img/soloperformance.webp",
     "alt": {
       "en": "SoloPerformance public site: headline and a laptop showing the training calendar",
       "es": "Sitio público de SoloPerformance: titular y una laptop con el calendario de entrenamientos"
@@ -23,7 +22,6 @@
   },
   {
     "id": "sumoshop",
-    "featured": true,
     "title": { "en": "SumoShop", "es": "SumoShop" },
     "summary": {
       "en": "Home-delivery app where customers order from local restaurants and shops, with promotions and a points wallet.",
@@ -32,7 +30,7 @@
     "role": { "en": "Full-stack developer at Nativo Digital.", "es": "Desarrollador full-stack en Nativo Digital." },
     "result": { "en": "", "es": "" },
     "tags": ["Vue", "Laravel", "PHP"],
-    "image": "assets/img/sumoshop.jpg",
+    "image": "assets/img/sumoshop.webp",
     "alt": {
       "en": "SumoShop home screen: delivery or pickup toggle, a promo banner and food categories",
       "es": "Pantalla de inicio de SumoShop: opción a domicilio o en tienda, un banner de promoción y categorías de comida"
@@ -42,7 +40,6 @@
   },
   {
     "id": "topterrenos",
-    "featured": true,
     "title": { "en": "TopTerrenos", "es": "TopTerrenos" },
     "summary": {
       "en": "Real-estate portal to search, list and publish land and developments for sale or rent.",
@@ -51,7 +48,7 @@
     "role": { "en": "Full-stack developer at Nativo Digital.", "es": "Desarrollador full-stack en Nativo Digital." },
     "result": { "en": "", "es": "" },
     "tags": ["React", "Laravel", "PHP"],
-    "image": "assets/img/topterrenos.jpg",
+    "image": "assets/img/topterrenos.webp",
     "alt": {
       "en": "TopTerrenos home page: search box for land by keyword and city",
       "es": "Página de inicio de TopTerrenos: buscador de terrenos por palabra clave y ciudad"
@@ -61,7 +58,6 @@
   },
   {
     "id": "pizzazi",
-    "featured": true,
     "title": { "en": "Pizzazi digital menu", "es": "Menú digital Pizzazi" },
     "summary": {
       "en": "A digital menu customers open from their phone, with an admin panel where the restaurant updates prices and creates QR-code coupons sent over WhatsApp.",
@@ -70,7 +66,7 @@
     "role": { "en": "Full stack, freelance", "es": "Full-stack, freelance" },
     "result": { "en": "In production for the Maxcanú branch.", "es": "En producción para la sucursal de Maxcanú." },
     "tags": ["React", "Tailwind CSS", "QR codes", "WhatsApp"],
-    "image": "assets/img/pizzazi.jpg",
+    "image": "assets/img/pizzazi.webp",
     "alt": {
       "en": "Pizzazi's digital menu: the logo, category tabs and the first pizzas",
       "es": "Menú digital de Pizzazi: el logo, las pestañas de categorías y las primeras pizzas"
@@ -80,7 +76,6 @@
   },
   {
     "id": "restaurant-pos",
-    "featured": true,
     "title": { "en": "Restaurant point of sale", "es": "Punto de venta para restaurantes" },
     "summary": {
       "en": "Point-of-sale system for restaurants: orders, cash closing, delivery drivers and user management, designed to run several branches. Private system.",
@@ -89,7 +84,7 @@
     "role": { "en": "Full stack, freelance", "es": "Full-stack, freelance" },
     "result": { "en": "Built for a local pizzeria.", "es": "Desarrollado para una pizzería local." },
     "tags": ["React", "Node.js", "Express"],
-    "image": "assets/img/pos.jpg",
+    "image": "assets/img/pos.webp",
     "alt": {
       "en": "Point-of-sale order screen with demo data: pizza catalog with photos and the current order with its total",
       "es": "Pantalla de nueva orden del punto de venta con datos de prueba: catálogo de pizzas con fotos y el pedido actual con su total"

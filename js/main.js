@@ -1,5 +1,5 @@
 const LANGS = ['en', 'es'];
-const CV_VERSION = 7;
+const CV_VERSION = 8;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -31,7 +31,7 @@ function renderProjects(t) {
         ariaLabel: title,
       }));
     } else if (p.image) {
-      media.append(el('img', { src: p.image, alt: p.alt?.[lang] || title, loading: 'lazy', decoding: 'async' }));
+      media.append(el('img', { src: p.image, alt: p.alt?.[lang] || title, width: 1280, height: 800, loading: 'lazy', decoding: 'async' }));
     } else {
       card.classList.add('no-media');
       media.remove();

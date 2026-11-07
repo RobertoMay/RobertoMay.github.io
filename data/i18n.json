@@ -43,7 +43,8 @@
         "points": [
           "SumoShop: home-delivery app with Vue and Laravel.",
           "Mapisa del Sureste: internal system for orders, loads and delivery drivers, with React and MongoDB.",
-          "TopTerrenos: land-sales website with React and Laravel."
+          "TopTerrenos: land-sales website with React and Laravel.",
+          "WordPress websites for local businesses through a Yucatán state government support program (SETY)."
         ]
       },
       {
@@ -78,10 +79,10 @@
     "skills.groups": [
       { "name": "Languages", "items": ["TypeScript", "JavaScript", "Python", "PHP", "HTML5", "CSS3", "Sass"] },
       { "name": "Front end", "items": ["Angular", "React", "Vue", "Next.js", "Storybook", "Angular Material", "Tailwind CSS", "Bootstrap"] },
-      { "name": "Back end", "items": ["Node.js", "NestJS", "Express", "Laravel", "Flask", "REST APIs", "WebSockets"] },
+      { "name": "Back end", "items": ["Node.js", "NestJS", "Express", "Laravel", "Flask", "WordPress", "REST APIs", "WebSockets"] },
       { "name": "Databases", "items": ["MongoDB", "Firestore"] },
       { "name": "Cloud & tools", "items": ["Google Cloud (App Engine)", "Firebase", "Git", "Docker"] },
-      { "name": "AI", "items": ["LLM integration with OpenRouter", "AI-assisted development (Claude Code)"] },
+      { "name": "AI", "items": ["LLM integration with OpenRouter"] },
       { "name": "Soft skills", "items": ["Remote work with an international team", "Working directly with clients", "Leading project teams", "Learning new stacks quickly", "Problem solving"] }
     ],
     "education.title": "Education",
@@ -137,7 +138,8 @@
         "points": [
           "SumoShop: app de reparto a domicilio con Vue y Laravel.",
           "Mapisa del Sureste: sistema interno de pedidos, cargas y repartidores con React y MongoDB.",
-          "TopTerrenos: sitio de venta de terrenos con React y Laravel."
+          "TopTerrenos: sitio de venta de terrenos con React y Laravel.",
+          "Sitios en WordPress para negocios locales dentro de un programa de apoyo de la SETY (Gobierno de Yucatán)."
         ]
       },
       {
@@ -172,10 +174,10 @@
     "skills.groups": [
       { "name": "Lenguajes", "items": ["TypeScript", "JavaScript", "Python", "PHP", "HTML5", "CSS3", "Sass"] },
       { "name": "Frontend", "items": ["Angular", "React", "Vue", "Next.js", "Storybook", "Angular Material", "Tailwind CSS", "Bootstrap"] },
-      { "name": "Backend", "items": ["Node.js", "NestJS", "Express", "Laravel", "Flask", "APIs REST", "WebSockets"] },
+      { "name": "Backend", "items": ["Node.js", "NestJS", "Express", "Laravel", "Flask", "WordPress", "APIs REST", "WebSockets"] },
       { "name": "Bases de datos", "items": ["MongoDB", "Firestore"] },
       { "name": "Nube y herramientas", "items": ["Google Cloud (App Engine)", "Firebase", "Git", "Docker"] },
-      { "name": "IA", "items": ["Integración de LLMs con OpenRouter", "Desarrollo asistido con IA (Claude Code)"] },
+      { "name": "IA", "items": ["Integración de LLMs con OpenRouter"] },
       { "name": "Habilidades blandas", "items": ["Trabajo remoto con un equipo internacional", "Trato directo con clientes", "Liderazgo de equipos de proyecto", "Aprendizaje rápido de nuevas tecnologías", "Resolución de problemas"] }
     ],
     "education.title": "Formación",
