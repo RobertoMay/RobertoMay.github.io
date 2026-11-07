@@ -6,7 +6,7 @@
   },
   "en": {
     "meta.title": "Roberto May · Full-stack developer",
-    "meta.description": "Roberto Carlos May Vergara, full-stack developer from Mexico. Angular, React, Vue, NestJS and Laravel.",
+    "meta.description": "Roberto Carlos May Vergara, full-stack developer from Mexico. Angular, React, Vue, NestJS, Laravel and Django.",
     "nav.skip": "Skip to content",
     "nav.experience": "Experience",
     "nav.projects": "Projects",
@@ -20,7 +20,7 @@
     "hero.name": "Roberto May",
     "hero.role": "Full-stack developer.",
     "hero.location": "Computer Systems Engineer · Mexico",
-    "hero.lead": "I build web apps every day with Angular, React, Vue, NestJS and Laravel, from the database to the interface.",
+    "hero.lead": "I build web apps every day with Angular, React, Vue, NestJS, Laravel and Django, from the database to the interface.",
     "hero.ctaProjects": "See my work",
     "hero.ctaCv": "Download résumé",
     "hero.ctaContact": "Contact",
@@ -42,7 +42,7 @@
         "where": "Mérida",
         "points": [
           "SumoShop: home-delivery app with Vue and Laravel.",
-          "Mapisa del Sureste: internal system for orders, loads and delivery drivers, with React, Django and MongoDB.",
+          "Mapisa del Sureste: internal system for orders, loads and delivery drivers, with React and Django.",
           "TopTerrenos: land-sales website with React and Laravel.",
           "WordPress websites for local businesses through a Yucatán state government support program (SETY)."
         ]
@@ -53,7 +53,7 @@
         "where": "Restaurants",
         "points": [
           "Pizzazi: digital menu with an admin panel for prices and QR-code coupons sent over WhatsApp.",
-          "Restaurant point-of-sale system with React, Node.js and Express, designed for multiple branches."
+          "Restaurant point-of-sale system with React, Node.js, Express and MongoDB, designed for multiple branches."
         ]
       },
       {
@@ -101,7 +101,7 @@
   },
   "es": {
     "meta.title": "Roberto May · Desarrollador full-stack",
-    "meta.description": "Roberto Carlos May Vergara, desarrollador full-stack de México. Angular, React, Vue, NestJS y Laravel.",
+    "meta.description": "Roberto Carlos May Vergara, desarrollador full-stack de México. Angular, React, Vue, NestJS, Laravel y Django.",
     "nav.skip": "Saltar al contenido",
     "nav.experience": "Experiencia",
     "nav.projects": "Proyectos",
@@ -115,7 +115,7 @@
     "hero.name": "Roberto May",
     "hero.role": "Desarrollador full-stack.",
     "hero.location": "Ingeniero en Sistemas · México",
-    "hero.lead": "Construyo aplicaciones web cada día con Angular, React, Vue, NestJS y Laravel, de la base de datos a la interfaz.",
+    "hero.lead": "Construyo aplicaciones web cada día con Angular, React, Vue, NestJS, Laravel y Django, de la base de datos a la interfaz.",
     "hero.ctaProjects": "Ver mi trabajo",
     "hero.ctaCv": "Descargar CV",
     "hero.ctaContact": "Contacto",
@@ -137,7 +137,7 @@
         "where": "Mérida",
         "points": [
           "SumoShop: app de reparto a domicilio con Vue y Laravel.",
-          "Mapisa del Sureste: sistema interno de pedidos, cargas y repartidores con React, Django y MongoDB.",
+          "Mapisa del Sureste: sistema interno de pedidos, cargas y repartidores con React y Django.",
           "TopTerrenos: sitio de venta de terrenos con React y Laravel.",
           "Sitios en WordPress para negocios locales dentro de un programa de apoyo de la SETY (Gobierno de Yucatán)."
         ]
@@ -148,7 +148,7 @@
         "where": "Restaurantes",
         "points": [
           "Pizzazi: menú digital con panel de administración para precios y cupones con código QR enviados por WhatsApp.",
-          "Punto de venta para restaurantes con React, Node.js y Express, diseñado para varias sucursales."
+          "Punto de venta para restaurantes con React, Node.js, Express y MongoDB, diseñado para varias sucursales."
         ]
       },
       {

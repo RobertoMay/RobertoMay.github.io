@@ -1,5 +1,5 @@
 const LANGS = ['en', 'es'];
-const CV_VERSION = 9;
+const CV_VERSION = 10;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;

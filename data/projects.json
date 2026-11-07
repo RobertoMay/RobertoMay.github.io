@@ -83,7 +83,7 @@
     },
     "role": { "en": "Full stack, freelance", "es": "Full-stack, freelance" },
     "result": { "en": "Built for a local pizzeria.", "es": "Desarrollado para una pizzería local." },
-    "tags": ["React", "Node.js", "Express"],
+    "tags": ["React", "Node.js", "Express", "MongoDB"],
     "image": "assets/img/pos.webp",
     "alt": {
       "en": "Point-of-sale order screen with demo data: pizza catalog with photos and the current order with its total",
