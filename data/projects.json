@@ -1,0 +1,100 @@
+[
+  {
+    "id": "soloperformance",
+    "featured": true,
+    "title": { "en": "SoloPerformance", "es": "SoloPerformance" },
+    "summary": {
+      "en": "Strength and conditioning software for coaching staff: training programs, player analytics and injury tracking.",
+      "es": "Software de preparación física para cuerpos técnicos: programas de entrenamiento, analítica de jugadores y seguimiento de lesiones."
+    },
+    "role": {
+      "en": "Front-end developer: feed, dashboard, bulk actions, presentation mode and analytics charts in Angular, plus Storybook components.",
+      "es": "Desarrollador frontend: feed, dashboard, acciones múltiples, modo presentación y gráficas de analítica en Angular, más componentes en Storybook."
+    },
+    "result": { "en": "Used by professional sports clubs.", "es": "Usada por clubes deportivos profesionales." },
+    "tags": ["Angular", "TypeScript", "Storybook", "Data visualization"],
+    "image": "assets/img/soloperformance.jpg",
+    "alt": {
+      "en": "SoloPerformance public site: headline and a laptop showing the training calendar",
+      "es": "Sitio público de SoloPerformance: titular y una laptop con el calendario de entrenamientos"
+    },
+    "video": "",
+    "links": { "demo": "https://soloperformance.app/", "repo": "" }
+  },
+  {
+    "id": "sumoshop",
+    "featured": true,
+    "title": { "en": "SumoShop", "es": "SumoShop" },
+    "summary": {
+      "en": "Home-delivery app where customers order from local restaurants and shops, with promotions and a points wallet.",
+      "es": "App de reparto a domicilio donde los clientes piden a restaurantes y comercios locales, con promociones y un monedero de puntos."
+    },
+    "role": { "en": "Full-stack developer at Nativo Digital.", "es": "Desarrollador full-stack en Nativo Digital." },
+    "result": { "en": "", "es": "" },
+    "tags": ["Vue", "Laravel", "PHP"],
+    "image": "assets/img/sumoshop.jpg",
+    "alt": {
+      "en": "SumoShop home screen: delivery or pickup toggle, a promo banner and food categories",
+      "es": "Pantalla de inicio de SumoShop: opción a domicilio o en tienda, un banner de promoción y categorías de comida"
+    },
+    "video": "",
+    "links": { "demo": "https://sumoshop.mx/", "repo": "" }
+  },
+  {
+    "id": "topterrenos",
+    "featured": true,
+    "title": { "en": "TopTerrenos", "es": "TopTerrenos" },
+    "summary": {
+      "en": "Real-estate portal to search, list and publish land and developments for sale or rent.",
+      "es": "Portal inmobiliario para buscar, listar y publicar terrenos y desarrollos en venta o renta."
+    },
+    "role": { "en": "Full-stack developer at Nativo Digital.", "es": "Desarrollador full-stack en Nativo Digital." },
+    "result": { "en": "", "es": "" },
+    "tags": ["React", "Laravel", "PHP"],
+    "image": "assets/img/topterrenos.jpg",
+    "alt": {
+      "en": "TopTerrenos home page: search box for land by keyword and city",
+      "es": "Página de inicio de TopTerrenos: buscador de terrenos por palabra clave y ciudad"
+    },
+    "video": "",
+    "links": { "demo": "https://www.topterrenos.com/", "repo": "" }
+  },
+  {
+    "id": "pizzazi",
+    "featured": true,
+    "title": { "en": "Pizzazi digital menu", "es": "Menú digital Pizzazi" },
+    "summary": {
+      "en": "A digital menu customers open from their phone, with an admin panel where the restaurant updates prices and creates QR-code coupons sent over WhatsApp.",
+      "es": "Menú digital que los clientes abren desde su celular, con un panel donde el restaurante actualiza precios y crea cupones con código QR que se envían por WhatsApp."
+    },
+    "role": { "en": "Full stack, freelance", "es": "Full-stack, freelance" },
+    "result": { "en": "In production for the Maxcanú branch.", "es": "En producción para la sucursal de Maxcanú." },
+    "tags": ["React", "Tailwind CSS", "QR codes", "WhatsApp"],
+    "image": "assets/img/pizzazi.jpg",
+    "alt": {
+      "en": "Pizzazi's digital menu: the logo, category tabs and the first pizzas",
+      "es": "Menú digital de Pizzazi: el logo, las pestañas de categorías y las primeras pizzas"
+    },
+    "video": "",
+    "links": { "demo": "https://pizzazi.mx/maxcanu", "repo": "" }
+  },
+  {
+    "id": "restaurant-pos",
+    "featured": true,
+    "title": { "en": "Restaurant point of sale", "es": "Punto de venta para restaurantes" },
+    "summary": {
+      "en": "Point-of-sale system for restaurants: orders, cash closing, delivery drivers and user management, designed to run several branches. Private system.",
+      "es": "Sistema de punto de venta para restaurantes: pedidos, corte de caja, repartidores y usuarios, diseñado para operar varias sucursales. Sistema privado."
+    },
+    "role": { "en": "Full stack, freelance", "es": "Full-stack, freelance" },
+    "result": { "en": "Built for a local pizzeria.", "es": "Desarrollado para una pizzería local." },
+    "tags": ["React", "Node.js", "Express"],
+    "image": "assets/img/pos.jpg",
+    "alt": {
+      "en": "Point-of-sale order screen with demo data: pizza catalog with photos and the current order with its total",
+      "es": "Pantalla de nueva orden del punto de venta con datos de prueba: catálogo de pizzas con fotos y el pedido actual con su total"
+    },
+    "video": "",
+    "links": { "demo": "", "repo": "" }
+  }
+]

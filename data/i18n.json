@@ -1,0 +1,195 @@
+{
+  "links": {
+    "email": "robertoc.may@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/roberto-may/",
+    "github": "https://github.com/RobertoMay"
+  },
+  "en": {
+    "meta.title": "Roberto May · Full-stack developer",
+    "meta.description": "Roberto Carlos May Vergara, full-stack developer from Mexico. Angular, React, Vue, NestJS and Laravel.",
+    "nav.skip": "Skip to content",
+    "nav.experience": "Experience",
+    "nav.projects": "Projects",
+    "nav.about": "About",
+    "nav.skills": "Skills",
+    "nav.contact": "Contact",
+    "nav.cv": "Résumé",
+    "nav.menu": "Menu",
+    "nav.theme": "Toggle dark mode",
+    "nav.lang": "Cambiar a español",
+    "hero.name": "Roberto May",
+    "hero.role": "Full-stack developer.",
+    "hero.location": "Computer Systems Engineer · Mexico",
+    "hero.lead": "I build web apps every day with Angular, React, Vue, NestJS and Laravel, from the database to the interface.",
+    "hero.ctaProjects": "See my work",
+    "hero.ctaCv": "Download résumé",
+    "hero.ctaContact": "Contact",
+    "experience.title": "Experience",
+    "experience.items": [
+      {
+        "when": "Apr 2025 – Present",
+        "what": "Front-End Developer · SoloPerformance",
+        "where": "Spain, remote",
+        "points": [
+          "Angular front end of a platform for coaching staff used by professional sports clubs.",
+          "Built complete modules: feed, dashboard, bulk actions, presentation mode, and player and injury analytics with charts.",
+          "Components for an internal reusable library documented in Storybook, within a large, complex codebase."
+        ]
+      },
+      {
+        "when": "Aug 2025 – Present",
+        "what": "Full-Stack Developer · Nativo Digital",
+        "where": "Mérida",
+        "points": [
+          "SumoShop: home-delivery app with Vue and Laravel.",
+          "Mapisa del Sureste: internal system for orders, loads and delivery drivers, with React and MongoDB.",
+          "TopTerrenos: land-sales website with React and Laravel."
+        ]
+      },
+      {
+        "when": "2026",
+        "what": "Full-Stack Developer · Freelance",
+        "where": "Restaurants",
+        "points": [
+          "Pizzazi: digital menu with an admin panel for prices and QR-code coupons sent over WhatsApp.",
+          "Restaurant point-of-sale system with React, Node.js and Express, designed for multiple branches."
+        ]
+      },
+      {
+        "when": "Sep 2023 – Jun 2025",
+        "what": "Web Developer · SoftMLX",
+        "where": "Social service and projects",
+        "points": [
+          "Teeth Care: web version of a dental-clinic app with Angular, Firebase Authentication and Flask.",
+          "School-management system for a boarding school in Dzitbalché, deployed on Google App Engine.",
+          "D-Agnostic: front end of a platform for surveys, exams and administrative tracking."
+        ]
+      }
+    ],
+    "projects.title": "Projects",
+    "projects.lead": "Products I have worked on, at my jobs and as a freelancer.",
+    "projects.role": "My role",
+    "projects.result": "Outcome",
+    "projects.demo": "Live site",
+    "projects.repo": "Source code",
+    "about.title": "About",
+    "about.body": "I'm Roberto Carlos May Vergara, a Computer Systems Engineer and full-stack developer. I like the whole path of a feature, from the database schema to the screen people use, and building products that solve real problems. I keep learning all the time and I'm looking for a team where I can keep growing.",
+    "skills.title": "Skills",
+    "skills.groups": [
+      { "name": "Languages", "items": ["TypeScript", "JavaScript", "Python", "PHP", "HTML5", "CSS3", "Sass"] },
+      { "name": "Front end", "items": ["Angular", "React", "Vue", "Next.js", "Storybook", "Angular Material", "Tailwind CSS", "Bootstrap"] },
+      { "name": "Back end", "items": ["Node.js", "NestJS", "Express", "Laravel", "Flask", "REST APIs", "WebSockets"] },
+      { "name": "Databases", "items": ["MongoDB", "Firestore"] },
+      { "name": "Cloud & tools", "items": ["Google Cloud (App Engine)", "Firebase", "Git", "Docker"] },
+      { "name": "AI", "items": ["LLM integration with OpenRouter", "AI-assisted development (Claude Code)"] },
+      { "name": "Soft skills", "items": ["Remote work with an international team", "Working directly with clients", "Leading project teams", "Learning new stacks quickly", "Problem solving"] }
+    ],
+    "education.title": "Education",
+    "education.items": [
+      { "when": "2021 – 2026", "what": "B.Eng. in Computer Systems Engineering", "where": "ITESCAM, Calkiní · Software Development specialization · Graduated May 2026" },
+      { "when": "2018 – 2021", "what": "Programming Technician", "where": "CECyTE Yucatán, Maxcanú campus" },
+      { "when": "Languages", "what": "Spanish (native) · English (B1)", "where": "Improving my English every week" }
+    ],
+    "contact.title": "Contact",
+    "contact.lead": "Email is the fastest way to reach me.",
+    "footer.top": "Back to top",
+    "footer.invite": "Got a project in mind?",
+    "footer.inviteEm": "Let's talk.",
+    "footer.cta": "Email me",
+    "footer.cv": "Résumé"
+  },
+  "es": {
+    "meta.title": "Roberto May · Desarrollador full-stack",
+    "meta.description": "Roberto Carlos May Vergara, desarrollador full-stack de México. Angular, React, Vue, NestJS y Laravel.",
+    "nav.skip": "Saltar al contenido",
+    "nav.experience": "Experiencia",
+    "nav.projects": "Proyectos",
+    "nav.about": "Sobre mí",
+    "nav.skills": "Habilidades",
+    "nav.contact": "Contacto",
+    "nav.cv": "CV",
+    "nav.menu": "Menú",
+    "nav.theme": "Cambiar tema oscuro",
+    "nav.lang": "Switch to English",
+    "hero.name": "Roberto May",
+    "hero.role": "Desarrollador full-stack.",
+    "hero.location": "Ingeniero en Sistemas · México",
+    "hero.lead": "Construyo aplicaciones web cada día con Angular, React, Vue, NestJS y Laravel, de la base de datos a la interfaz.",
+    "hero.ctaProjects": "Ver mi trabajo",
+    "hero.ctaCv": "Descargar CV",
+    "hero.ctaContact": "Contacto",
+    "experience.title": "Experiencia",
+    "experience.items": [
+      {
+        "when": "abr 2025 – actual",
+        "what": "Desarrollador Frontend · SoloPerformance",
+        "where": "España, remoto",
+        "points": [
+          "Frontend en Angular de una plataforma para cuerpos técnicos usada por clubes deportivos profesionales.",
+          "Construí módulos completos: feed, dashboard, acciones múltiples, modo presentación y analítica de jugadores y lesiones con gráficas.",
+          "Componentes de una librería interna reutilizable documentados en Storybook, sobre una base de código grande y compleja."
+        ]
+      },
+      {
+        "when": "ago 2025 – actual",
+        "what": "Desarrollador Full Stack · Nativo Digital",
+        "where": "Mérida",
+        "points": [
+          "SumoShop: app de reparto a domicilio con Vue y Laravel.",
+          "Mapisa del Sureste: sistema interno de pedidos, cargas y repartidores con React y MongoDB.",
+          "TopTerrenos: sitio de venta de terrenos con React y Laravel."
+        ]
+      },
+      {
+        "when": "2026",
+        "what": "Desarrollador Full Stack · Freelance",
+        "where": "Restaurantes",
+        "points": [
+          "Pizzazi: menú digital con panel de administración para precios y cupones con código QR enviados por WhatsApp.",
+          "Punto de venta para restaurantes con React, Node.js y Express, diseñado para varias sucursales."
+        ]
+      },
+      {
+        "when": "sep 2023 – jun 2025",
+        "what": "Desarrollador Web · SoftMLX",
+        "where": "Servicio social y proyectos",
+        "points": [
+          "Teeth Care: versión web de una app para clínicas dentales con Angular, Firebase Authentication y Flask.",
+          "Sistema de gestión escolar para el albergue de Dzitbalché, publicado en Google App Engine.",
+          "D-Agnostic: frontend de una plataforma de encuestas, exámenes y control administrativo."
+        ]
+      }
+    ],
+    "projects.title": "Proyectos",
+    "projects.lead": "Productos en los que he trabajado, en mis empleos y como freelance.",
+    "projects.role": "Mi rol",
+    "projects.result": "Resultado",
+    "projects.demo": "Ver sitio",
+    "projects.repo": "Código fuente",
+    "about.title": "Sobre mí",
+    "about.body": "Soy Roberto Carlos May Vergara, Ingeniero en Sistemas Computacionales y desarrollador full-stack. Me gusta el camino completo de una función, del esquema de la base de datos a la pantalla que la gente usa, y construir productos que resuelvan problemas reales. Estoy en constante aprendizaje y busco un equipo donde seguir creciendo.",
+    "skills.title": "Habilidades",
+    "skills.groups": [
+      { "name": "Lenguajes", "items": ["TypeScript", "JavaScript", "Python", "PHP", "HTML5", "CSS3", "Sass"] },
+      { "name": "Frontend", "items": ["Angular", "React", "Vue", "Next.js", "Storybook", "Angular Material", "Tailwind CSS", "Bootstrap"] },
+      { "name": "Backend", "items": ["Node.js", "NestJS", "Express", "Laravel", "Flask", "APIs REST", "WebSockets"] },
+      { "name": "Bases de datos", "items": ["MongoDB", "Firestore"] },
+      { "name": "Nube y herramientas", "items": ["Google Cloud (App Engine)", "Firebase", "Git", "Docker"] },
+      { "name": "IA", "items": ["Integración de LLMs con OpenRouter", "Desarrollo asistido con IA (Claude Code)"] },
+      { "name": "Habilidades blandas", "items": ["Trabajo remoto con un equipo internacional", "Trato directo con clientes", "Liderazgo de equipos de proyecto", "Aprendizaje rápido de nuevas tecnologías", "Resolución de problemas"] }
+    ],
+    "education.title": "Formación",
+    "education.items": [
+      { "when": "2021 – 2026", "what": "Ingeniería en Sistemas Computacionales", "where": "ITESCAM, Calkiní · Especialidad en Desarrollo de Software · Egresado en mayo de 2026" },
+      { "when": "2018 – 2021", "what": "Técnico en Programación", "where": "CECyTE Yucatán, plantel Maxcanú" },
+      { "when": "Idiomas", "what": "Español (nativo) · Inglés (B1)", "where": "Mejorando mi inglés cada semana" }
+    ],
+    "contact.title": "Contacto",
+    "contact.lead": "El correo es la forma más rápida de contactarme.",
+    "footer.top": "Volver arriba",
+    "footer.invite": "¿Tienes un proyecto en mente?",
+    "footer.inviteEm": "Hablemos.",
+    "footer.cta": "Escríbeme",
+    "footer.cv": "CV"
+  }
+}
