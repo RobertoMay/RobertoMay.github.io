@@ -1,11 +1,10 @@
-/* Tokens */
 :root {
   --bg: #f4f3ef;
   --surface: #ffffff;
   --ink: #17171a;
   --muted: #55555c;
   --line: #dcdbd4;
-  --accent: #b03f0c; /* achiote: the one accent, used in the hero, the footer and the focus ring */
+  --accent: #b03f0c;
   --notch: #0d0d0e;
   --notch-ink: #f4f3ef;
   --notch-muted: #a6a6ad;
@@ -24,7 +23,6 @@
   color-scheme: light;
 }
 
-/* Light is the default whatever the device prefers; dark only when the visitor picks it */
 :root[data-theme="dark"] {
   --bg: #111112;
   --surface: #1a1a1c;
@@ -39,7 +37,6 @@
   color-scheme: dark;
 }
 
-/* Base */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 88px; -webkit-text-size-adjust: 100%; }
 body {
@@ -64,7 +61,6 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
 }
 .skip:focus { top: 16px; }
 
-/* Notch navbar: hangs from the top edge, concave corners blend it into the viewport */
 .notch {
   position: fixed; top: 0; left: 50%; z-index: 50;
   width: min(100% - 32px, 760px);
@@ -120,7 +116,6 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
   .nav-cta { display: none; }
   .menu-btn { display: grid; }
   .notch-bar { flex-wrap: wrap; justify-content: space-between; }
-  /* Mobile menu: the notch grows downward (grid-rows 0fr → 1fr) */
   .nav-links {
     order: 3; flex-basis: 100%; margin: 0;
     display: grid; grid-template-rows: 0fr; opacity: 0; visibility: hidden;
@@ -132,20 +127,20 @@ em { font-family: var(--font-serif); font-style: italic; font-weight: 400; lette
   .notch[data-open="true"] .nav-links { grid-template-rows: 1fr; opacity: 1; visibility: visible; transition-delay: 0s; }
 }
 
-/* Layout */
 main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 .section { padding-block: clamp(72px, 12vw, 140px) 0; }
 .section h2 { font-size: clamp(2rem, 5vw, 3.25rem); }
 .section-head { display: grid; gap: 12px; margin-bottom: clamp(32px, 5vw, 56px); }
 .section-head p { color: var(--muted); max-width: 52ch; }
 
-/* Hero */
 .hero { min-height: 92svh; display: flex; flex-direction: column; justify-content: center; gap: 24px; padding-top: 96px; }
 .hero-meta { color: var(--muted); font-size: 0.95rem; }
-.hero-title { font-size: clamp(2.75rem, 9vw, 6.5rem); display: grid; gap: 0.05em; }
+.hero-title { font-size: clamp(2.75rem, 9.6vw, 9rem); display: grid; gap: 0.05em; }
 .hero-title em { color: var(--accent); font-size: 1.04em; line-height: 1; }
 .hero-lead { font-size: clamp(1.1rem, 2vw, 1.3rem); color: var(--muted); max-width: 46ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+@media (max-width: 479px) { .hero-actions .btn-ghost { display: none; } }
+.noscript { padding-top: 48px; color: var(--muted); }
 
 .btn {
   display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px;
@@ -161,7 +156,6 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
   .btn-ghost:hover { border-color: var(--line); }
 }
 
-/* Projects */
 .projects { list-style: none; margin: 0; padding: 0; display: grid; gap: clamp(48px, 8vw, 96px); }
 .project { display: grid; gap: 24px; }
 @media (min-width: 860px) {
@@ -176,7 +170,6 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 }
 .project-media.is-tilting { transition-duration: 120ms; }
 .project-media img, .project-media video { width: 100%; height: 100%; object-fit: cover; }
-/* Project without a screenshot: one full-width card, title and summary left, details right */
 .project.no-media {
   grid-template-columns: 1fr; padding: clamp(24px, 4vw, 44px);
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
@@ -201,12 +194,10 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 .project-links { display: flex; gap: 10px; flex-wrap: wrap; }
 .project-links:empty { display: none; }
 
-/* About */
 .about { display: grid; gap: 24px; }
 @media (min-width: 860px) { .about { grid-template-columns: 1fr 2fr; } }
 .about-body { font-size: clamp(1.3rem, 2.6vw, 1.85rem); line-height: 1.4; letter-spacing: -0.01em; }
 
-/* Skills & education: rows, not cards */
 #skills h2, #education h2 { margin-bottom: clamp(24px, 4vw, 40px); }
 .rows { margin: 0; }
 .rows div { display: grid; gap: 6px 24px; padding-block: 18px; border-top: 1px solid var(--line); }
@@ -222,7 +213,6 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 .edu-where { color: var(--muted); }
 .jobs ul { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 6px; list-style: disc; }
 
-/* Contact */
 .contact { display: grid; gap: 20px; }
 .contact > p { color: var(--muted); max-width: 48ch; }
 .contact-email {
@@ -235,7 +225,6 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 .contact-links { list-style: none; margin: 0; padding: 0; display: flex; gap: 24px; }
 .contact-links a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
 
-/* Footer: the notch's colour, a tab that mirrors the navbar, and the name cropped by the bottom edge */
 .footer {
   position: relative; overflow: hidden;
   margin-top: clamp(120px, 16vw, 200px);
@@ -244,13 +233,11 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
   border-radius: 32px 32px 0 0;
 }
 .footer-tab {
-  /* centred with margins, not translate, so it never lands on a half pixel and shows seams */
   position: absolute; top: 0; left: 0; right: 0; width: max-content; margin-inline: auto;
   padding: 8px 18px 10px; border-radius: 0 0 var(--notch-r) var(--notch-r);
   background: var(--bg); color: var(--ink); font-size: 0.85rem; font-weight: 600; text-decoration: none;
   transition: color 150ms ease;
 }
-/* the concave corners overlap the tab by 1px so no hairline shows between them */
 .footer-tab::before, .footer-tab::after { content: ""; position: absolute; top: 0; width: calc(var(--notch-r) + 1px); height: var(--notch-r); }
 .footer-tab::before { right: calc(100% - 1px); background: radial-gradient(circle at 0 100%, transparent calc(var(--notch-r) - 0.5px), var(--bg) var(--notch-r)); }
 .footer-tab::after  { left: calc(100% - 1px);  background: radial-gradient(circle at 100% 100%, transparent calc(var(--notch-r) - 0.5px), var(--bg) var(--notch-r)); }
@@ -290,7 +277,6 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 .footer-name em { color: var(--notch-accent); font-size: 1.08em; letter-spacing: -0.03em; }
 .footer-name span { display: inline-block; }
 
-/* Motion: hero words blur in once on load; sections reveal once on scroll */
 .hero > *, .hero-title > * { animation: rise 900ms var(--ease-out) both; }
 .hero-meta { animation-delay: 150ms; }
 .hero-title > :first-child { animation-delay: 230ms; }
@@ -303,7 +289,6 @@ main { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 .reveal { opacity: 0; translate: 0 28px; filter: blur(8px); transition: opacity 800ms var(--ease-out), translate 800ms var(--ease-out), filter 800ms var(--ease-out); transition-delay: var(--d, 0ms); }
 .reveal.is-in { opacity: 1; translate: 0 0; filter: none; }
 
-/* Footer name: letters climb out of the bottom edge one by one when the footer arrives */
 .js .footer-name span { translate: 0 110%; transition: translate 1000ms var(--ease-out); transition-delay: calc(var(--i) * 45ms); }
 .js .footer-name.is-in span { translate: 0 0; }
 

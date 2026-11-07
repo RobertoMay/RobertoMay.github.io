@@ -1,5 +1,5 @@
 const LANGS = ['en', 'es'];
-const CV_VERSION = 7; // bump after regenerating the PDFs so browsers don't serve a cached copy
+const CV_VERSION = 7;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -8,7 +8,6 @@ const [i18n, projects] = await Promise.all(
   ['data/i18n.json', 'data/projects.json'].map((u) => fetch(u, { cache: 'no-cache' }).then((r) => r.json()))
 );
 
-// Every visit starts in English and light theme; only ?lang=es changes the starting language
 const urlLang = new URLSearchParams(location.search).get('lang');
 let lang = LANGS.includes(urlLang) ? urlLang : 'en';
 
@@ -34,7 +33,6 @@ function renderProjects(t) {
     } else if (p.image) {
       media.append(el('img', { src: p.image, alt: p.alt?.[lang] || title, loading: 'lazy', decoding: 'async' }));
     } else {
-      // No screenshot (private systems): a text-only card instead of an empty frame
       card.classList.add('no-media');
       media.remove();
     }
@@ -89,7 +87,6 @@ function applyLang() {
   history.replaceState(null, '', url);
 }
 
-// Links that are the same in both languages
 const { links } = i18n;
 $$('[data-mail]').forEach((a) => { a.href = `mailto:${links.email}`; });
 $('#contact-email').textContent = links.email;
@@ -102,13 +99,11 @@ $('#lang-toggle').addEventListener('click', () => {
   applyLang();
 });
 
-// Theme: light unless the visitor chose dark
 $('#theme-toggle').addEventListener('click', () => {
   const root = document.documentElement;
   root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
 });
 
-// Mobile menu
 const notch = $('.notch');
 const menuBtn = $('.menu-btn');
 const setMenu = (open) => { notch.dataset.open = open; menuBtn.setAttribute('aria-expanded', open); };
@@ -116,7 +111,6 @@ menuBtn.addEventListener('click', () => setMenu(notch.dataset.open !== 'true'));
 $$('.nav-links a').forEach((a) => a.addEventListener('click', () => setMenu(false)));
 addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
 
-// Highlight the nav link of the section in view
 const navLinks = $$('.nav-links a');
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.filter((e) => e.isIntersecting).forEach((e) => {
@@ -125,7 +119,6 @@ const sectionObserver = new IntersectionObserver((entries) => {
 }, { rootMargin: '-45% 0px -50% 0px' });
 $$('main section[id]').forEach((s) => sectionObserver.observe(s));
 
-// Scroll reveal: blur + rise, once per element, staggered within a group
 const revealObserver = new IntersectionObserver((entries) => {
   entries.filter((e) => e.isIntersecting).forEach((e) => {
     e.target.classList.add('is-in');
@@ -151,15 +144,12 @@ function observeReveals() {
   }));
 }
 
-// The footer's name climbs out of the bottom edge as soon as any of it is on screen
-// (it sits at the very end of the page, so it never reaches the reveal observer's -10% line on a phone)
 new IntersectionObserver(([e], obs) => {
   if (!e.isIntersecting) return;
   e.target.classList.add('is-in');
   obs.disconnect();
 }).observe($('.footer-name'));
 
-// Project media tilts toward the pointer (mouse only)
 if (matchMedia('(hover: hover) and (pointer: fine)').matches && !reduceMotion) {
   $('#project-list').addEventListener('pointermove', (e) => {
     const m = e.target.closest('.project-media');
