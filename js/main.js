@@ -1,5 +1,5 @@
 const LANGS = ['en', 'es'];
-const CV_VERSION = 6; // bump after regenerating the PDFs so browsers don't serve a cached copy
+const CV_VERSION = 7; // bump after regenerating the PDFs so browsers don't serve a cached copy
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
